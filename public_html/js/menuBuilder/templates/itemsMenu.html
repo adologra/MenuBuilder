@@ -1,0 +1,14 @@
+
+<style>
+    .Horizontal{
+        display:inline-block;
+    }
+    .Vertical{
+        display:block;
+    }
+</style>
+<ul class="MenuHorizontal">
+    <li ng-class="mainCtrl.class" ng-repeat="nodo in mainCtrl.schema" >
+        <div ng-class="nodo.classStyle" title="{{nodo.titleHtml}}" ><span>{{nodo.title}}</span></div>
+    </li>
+</ul>

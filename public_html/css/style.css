@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-oct-2015, 23:36:46
+    Author     : Adolfo López Granados.
+*/
+
+.MenuHorizontal {
+position: relative;
+overflow: hidden;
+width: 81%;
+margin: 10px auto;
+box-sizing: border-box;
+border-radius: 10px 10px;
+background: #025BA3; 
+text-align:center;
+padding: 0;
+}
+.MenuHorizontal li {
+display: inline-block;
+width: 10%;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+.MenuHorizontal li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;	
+}
+.MarcaOver{
+	display: none;
+	position: absolute;
+	top: 4px;
+	width: 10%;
+	height: 4px;
+	background: #fff;
+}
+.news:hover .MarcaOver {
+	display: block;
+}
+.sport:hover .MarcaOver {
+	display: block;
+}
+.weather:hover .MarcaOver {
+	display: block;
+}
+.capital:hover .MarcaOver {
+	display: block;
+}
+.culture:hover .MarcaOver {
+	display: block;
+}
+.autos:hover .MarcaOver {
+	display: block;
+}
+.tv:hover .MarcaOver {
+	display: block;
+}
+.radio:hover .MarcaOver {
+	display: block;
+}
+.more:hover .MarcaOver {
+	display: block;
+}
+

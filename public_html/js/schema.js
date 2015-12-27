@@ -1,10 +1,4 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-var schema = {Schema: [
+var schemaMenu = {Schema: [
     {id:'nod1', title: 'News', classStyle:'news', titleHtml: 'Noticias Destacadas', url:"news"},
     {id:'nod2', title:'Sport', titleHtml: 'Noticias Deportes'},
     {id:'nod3',title: 'Weather', titleHtml: 'Noticias Tiempo'},

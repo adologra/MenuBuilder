@@ -5,13 +5,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src ="js/libs/angularJS/angular.js"></script>
-        <script type="text/javascript" src ="js/schema.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular-resource.js"></script>
+        <!--<script type="text/javascript" src ="js/schema.js"></script>-->
         <script type="text/javascript" src ="js/main.js"></script>
         <script type="text/javascript" src ="js/menuBuilder/mainMenuBuilder.js"></script>
         
         <link rel="stylesheet" href="/css/style.css"/>
     </head>
     <body >
-        <nav menu-container class="MenuHorizontal"></nav>
+        <nav menu-container class="MenuHorizontal" schema="js/schema.json"></nav>
     </body>
 </html>

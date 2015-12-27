@@ -9,4 +9,3 @@ angular.module('menuBuilder',['menuBuilder.main'])
           controller: 'mainCtrl'
         });
     });
-
